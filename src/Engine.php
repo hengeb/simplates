@@ -53,7 +53,8 @@ class Engine
      */
     public function get(string $var): mixed
     {
-        return $this->getContext()['variables'][$var] ?? null;
+        $allVariables = array_merge(...array_column($this->contexts, 'variables'));
+        return $allVariables[$var] ?? null;
     }
 
     /**
