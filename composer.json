@@ -1,0 +1,19 @@
+{
+    "name": "hengeb/simplates",
+    "description": "Template Engine for lightweight templates with automatic escaping",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Gebauer",
+            "email": "code@henrik-gebauer.de",
+            "homepage": "https://www.henrik-gebauer.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-4": {"Hengeb\\Simplates\\": "src"}
+    }
+}
